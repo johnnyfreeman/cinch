@@ -1,0 +1,6 @@
+parameters:
+#    cinch_core.example.class: Cinch\CoreBundle\Example
+
+services:
+#    my_dispatcher:
+#        class: Symfony\Component\EventDispatcher\EventDispatcher
