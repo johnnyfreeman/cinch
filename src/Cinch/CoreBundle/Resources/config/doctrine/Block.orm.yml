@@ -1,0 +1,23 @@
+Cinch\CoreBundle\Entity\Block:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        region_id:
+            type: integer
+        subject:
+            type: string
+            length: 255
+        subject_id:
+            type: integer
+        comments:
+            type: text
+    lifecycleCallbacks: {  }
+    manyToOne:
+        region:
+            targetEntity: Region
+            inversedBy: blocks

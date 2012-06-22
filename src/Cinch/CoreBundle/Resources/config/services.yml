@@ -4,3 +4,10 @@ parameters:
 services:
 #    my_dispatcher:
 #        class: Symfony\Component\EventDispatcher\EventDispatcher
+    cinch.data_container:
+        class: Cinch\CoreBundle\Container\DataContainer
+    cinch.twig.core_extension:
+        class: Cinch\CoreBundle\Twig\Extension\CoreExtension
+        arguments: [@service_container]
+        tags:
+            - { name: twig.extension }

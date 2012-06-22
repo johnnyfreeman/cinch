@@ -1,0 +1,17 @@
+Cinch\CoreBundle\Entity\Page:
+    type: entity
+    table: null
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        title:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
+    oneToMany:
+        regions:
+            targetEntity: Region
+            mappedBy: page
