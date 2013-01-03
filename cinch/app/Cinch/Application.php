@@ -34,6 +34,7 @@ use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Yaml\Parser as YamlParser;
 use Monolog\Logger;
+use Exception;
 
 /*
  * The Cinch Application class.
@@ -102,14 +103,18 @@ class Application extends BaseApplication
         $app['yaml'] = new YamlParser();
         $routes = $app['yaml']->parse(file_get_contents(CINCH_APP.DS.'config'.DS.'routes.yml'));
 
+        // get global content
+        $app['content'] = $app['yaml']->parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim('_global.yml', DS)));
+
         // register routes
         foreach ($routes as $uri => $file)
         {
-            $local = $app['yaml']->parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
-            $global = $app['yaml']->parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim('_global.yml', DS)));
-            $content = $app['content'] = array_merge($global, $local);
+            $app->get($uri, function () use ($app, $file)
+            {
+                // merge local data with global data
+                $local = $app['yaml']->parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
+                $content = $app['content'] = array_merge($app['content'], $local);
 
-            $app->get($uri, function () use ($app, $content) {
                 return $app->renderView($content['template'], $content);
             });
         // ->bind(NamedRoutes::HOME);
@@ -131,19 +136,6 @@ class Application extends BaseApplication
             $app->log((string) $e);
         });
 
-
-        // 404 handler
-        $app->error(function(NotFoundHttpException $e) use ($app) {
-            // render template if 404.html.twig is_readable
-            // overwise do nothing
-            if (is_readable(THEMES_PATH.'/CURRENT_THEME/errors/404.html.twig'))
-            {
-                return $app->render('errors/404.html.twig', array(
-                    'name' => $name,
-                ));
-            }
-        });
-
         // base url
         $request = Request::createFromGlobals();
 
@@ -154,10 +146,26 @@ class Application extends BaseApplication
         // current theme
         $theme_uri = DIRECTORY_SEPARATOR . 'themes' 
                    . DIRECTORY_SEPARATOR . 'site'
-                   . DIRECTORY_SEPARATOR . 'smartstart';
+                   . DIRECTORY_SEPARATOR . $app['content']['theme'];
         $app['theme_url'] = $app['base_url'] . $theme_uri;
         // echo '<pre>'; print_r($app['theme_url']); echo '</pre>'; die();
         $theme_path = PUBLIC_PATH . $theme_uri;
+
+
+        // 404 handler
+        $app->error(function(NotFoundHttpException $e) use ($app, $theme_path) {
+            // render template if 404.html is readable
+            // overwise rethrow exception
+            if (is_readable($theme_path . '/404.html'))
+            {
+                return $app->render('/404.html', $app['content']);
+            }
+            else
+            {
+                throw $e;
+            }
+        });
+
 
         // Register Twig
         $app->register(new TwigServiceProvider(), array(

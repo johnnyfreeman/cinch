@@ -23874,3 +23874,247 @@ Stack trace:
 [2013-01-04 00:15:55] cinch.INFO: < 200 [] []
 [2013-01-04 00:19:49] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
 [2013-01-04 00:19:49] cinch.INFO: < 200 [] []
+[2013-01-04 00:27:07] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-04 00:27:07] cinch.INFO: < 200 [] []
+[2013-01-04 00:31:51] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-04 00:31:51] cinch.INFO: < 200 [] []
+[2013-01-04 00:32:48] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:33:57] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:33:57] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:39:00] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:39:00] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:39:22] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:39:22] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:40:14] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:40:14] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:44:28] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:44:28] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:45:11] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:45:11] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:45:31] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /about" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:45:31] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/about')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/about')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/about')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /about"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:45:31] cinch.INFO: < 404 [] []
+[2013-01-04 00:47:03] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-04 00:47:47] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-04 00:47:47] cinch.INFO: < 200 [] []
+[2013-01-04 00:47:53] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /abouts" (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php line 94 [] []
+[2013-01-04 00:47:53] cinch.INFO: exception 'Symfony\Component\Routing\Exception\ResourceNotFoundException' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\UrlMatcher.php:91
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\symfony\routing\Symfony\Component\Routing\Matcher\RedirectableUrlMatcher.php(30): Symfony\Component\Routing\Matcher\UrlMatcher->match('/abouts')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\LazyUrlMatcher.php(51): Symfony\Component\Routing\Matcher\RedirectableUrlMatcher->match('/abouts')
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php(80): Silex\LazyUrlMatcher->match('/abouts')
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#5 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main}
+
+Next exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' with message 'No route found for "GET /abouts"' in C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\EventListener\RouterListener.php:94
+Stack trace:
+#0 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#1 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(164): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#2 C:\xampp\htdocs\cinch\cinch\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php(53): Symfony\Component\EventDispatcher\EventDispatcher->doDispatch(Array, 'kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#3 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(110): Symfony\Component\EventDispatcher\EventDispatcher->dispatch('kernel.request', Object(Symfony\Component\HttpKernel\Event\GetResponseEvent))
+#4 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#5 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#6 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#7 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(46): Silex\Application->run()
+#8 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#9 {main} [] []
+[2013-01-04 00:47:53] cinch.INFO: < 404 [] []
+[2013-01-04 00:48:01] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-04 00:48:01] cinch.INFO: < 200 [] []
