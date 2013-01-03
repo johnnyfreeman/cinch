@@ -1,0 +1,16 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "*",
+        "doctrine/dbal": "*",
+        "twig/twig": "*",
+        "monolog/monolog": "*",
+        "symfony/yaml": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Cinch": "app/",
+            "": "packages/"
+        }
+    }
+}

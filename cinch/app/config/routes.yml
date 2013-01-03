@@ -1,0 +1,15 @@
+routes:
+    /:
+        template: index.html
+        regions:
+            slogan:
+              - class: HelloWorld\Blocks\SayHello
+                options: 
+                    name: Johnny
+              - class: HelloWorld\Blocks\SayGoodbye
+                options: 
+                    name: Bro
+    /about:
+        template: about-us.html
+    /about/team:
+        template: our-team.html

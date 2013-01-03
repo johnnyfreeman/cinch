@@ -1,3 +1,0 @@
-CinchCoreBundle_homepage:
-    pattern:  /_page/{id}
-    defaults: { _controller: CinchCoreBundle:Page:showById }
