@@ -1,0 +1,32 @@
+page_title: About Us
+regions:
+    header: 
+      - class: HelloWorld\Blocks\SayHello
+        options: 
+            name: Johnny
+      - class: Cinch\Blocks\Html
+        options: 
+            html: Bro
+      - class: Cinch\Blocks\Paragraph
+        options: 
+            html: Bro
+      - class: Cinch\Blocks\Image
+        options: 
+            src: /img/logo.png
+      - class: Cinch\Blocks\SlideShow
+        options: 
+            html: Bro
+    main: 
+      - class: Cinch\Blocks\Header
+        options: 
+            class: page-description
+            level: 2
+            html: We're a t-shaped team that helps you get sh*t done.
+      - class: Cinch\Blocks\Image
+        options: 
+            src: http://placehold.it/350x150
+    footer:
+      - class: Cinch\Blocks\Navigation
+        options: 
+            name: Johnny
+template: /about-us.html

@@ -19,6 +19,7 @@ use Twig_Extension;
 use Twig_Function_Method;
 use Twig_Environment;
 use Cinch\Region;
+use Exception;
 
 /*
  * The Cinch Application class.
@@ -34,8 +35,8 @@ class TwigExtension extends Twig_Extension
     {
         return array(
             'asset' => new Twig_Function_Method($this, 'assetFunction', array('needs_environment' => true)),
-            'region' => new Twig_Function_Method($this, 'regionFunction', array('needs_environment' => true)),
-            'block' => new Twig_Function_Method($this, 'blockFunction', array('needs_environment' => true)),
+            'region' => new Twig_Function_Method($this, 'regionFunction', array('needs_environment' => true, 'is_safe' => array('html'))),
+            'block' => new Twig_Function_Method($this, 'blockFunction', array('needs_environment' => true, 'is_safe' => array('html'))),
         );
     }
 
@@ -50,6 +51,19 @@ class TwigExtension extends Twig_Extension
     {
         $region = new Region();
 
+        // if $blocks is a string, we need to look for 
+        // the configurations in the content service
+        if (is_string($blocks)) {
+            $block_name = $blocks;
+            $globals    = $twig->getGlobals();
+            $regions    = $globals['app']['content']['regions'];
+            $blocks     = array_key_exists($block_name, $regions) ? $regions[$block_name] : array();
+        }
+
+        if (!is_array($blocks)) {
+            throw new Exception('$blocks should be an array by now');
+        }
+
         foreach ($blocks as $config) {
             $region->addBlock($config);
         }
@@ -57,7 +71,7 @@ class TwigExtension extends Twig_Extension
         return $region;
     }
 
-    public function blockFunction(Twig_Environment $twig, $path)
+    public function blockFunction(Twig_Environment $twig, $config)
     {
         return '';
     }

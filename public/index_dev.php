@@ -19,16 +19,21 @@
  * needed definitions.
  */
 
-// development environment setup
+// Directory Separator
+defined('DS') or define('DS', DIRECTORY_SEPARATOR);
+
+// Development environment setup
+require('php_error.php');
+\php_error\reportErrors();
 error_reporting(-1); 
 ini_set('display_errors', 1);
 define('CINCH_ENV', 'DEV');
 
-// paths
-define('CINCH_ROOT', realpath(__DIR__ . '/../cinch') . DIRECTORY_SEPARATOR);
-define('CINCH_APP', CINCH_ROOT . 'app' . DIRECTORY_SEPARATOR);
-define('CINCH_PACKAGES', CINCH_ROOT . 'packages' . DIRECTORY_SEPARATOR);
-define('PUBLIC_PATH', realpath(__DIR__) . DIRECTORY_SEPARATOR);
+// Paths
+define('CINCH_ROOT', realpath(__DIR__.DS.'..'.DS.'cinch'));
+define('CINCH_APP', CINCH_ROOT.DS.'app');
+define('CINCH_PACKAGES', CINCH_ROOT.DS.'packages');
+define('PUBLIC_PATH', realpath(__DIR__));
 
-// kickoff
-require_once CINCH_APP.'bootstrap.php';
+// Kickoff
+require_once CINCH_APP.DS.'bootstrap.php';
