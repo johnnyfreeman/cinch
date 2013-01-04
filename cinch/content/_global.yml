@@ -1,4 +1,4 @@
-site_title: My Cool Site
-page_title: 
+site_title: 'My Cool Site'
+page_title: ''
 theme: smartstart
 template: 404.html

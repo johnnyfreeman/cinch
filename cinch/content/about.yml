@@ -1,16 +1,19 @@
-page_title: About Us
+page_title: 'About Us'
 template: /about-us.html
 regions:
-    main: 
-      - class: Cinch\Blocks\Header
-        options: 
-            class: page-description
-            level: 2
-            html: We're a t-shaped team that helps you get junk done.
-      # - class: Cinch\Blocks\Image
-      #   options: 
-      #       src: http://placehold.it/350x150
+    main:
+        -
+            class: Cinch\Blocks\Header
+            options:
+                class: page-description
+                level: 2
+                html: 'We are regarded as industry leaders in digital strategy and solutions, focused solely on delivering great user experiences.'
+        # -
+        #     class: Cinch\Blocks\Image
+        #     options:
+        #         src: http://placehold.it/350x150
     footer:
-      - class: Cinch\Blocks\Navigation
-        options: 
-            name: Johnny
+        -
+            class: Cinch\Blocks\Navigation
+            options:
+                name: Johnny

@@ -32,7 +32,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 // use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Symfony\Component\Yaml\Parser as YamlParser;
+use Symfony\Component\Yaml\Yaml;
 use Monolog\Logger;
 use Exception;
 
@@ -100,11 +100,10 @@ class Application extends BaseApplication
         $app->register(new UrlGeneratorServiceProvider());
 
         // get routes
-        $app['yaml'] = new YamlParser();
-        $routes = $app['yaml']->parse(file_get_contents(CINCH_APP.DS.'config'.DS.'routes.yml'));
+        $routes = Yaml::parse(file_get_contents(CINCH_APP.DS.'config'.DS.'routes.yml'));
 
         // get global content
-        $app['content'] = $app['yaml']->parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim('_global.yml', DS)));
+        $app['content'] = Yaml::parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim('_global.yml', DS)));
 
         // register routes
         foreach ($routes as $uri => $file)
@@ -112,7 +111,7 @@ class Application extends BaseApplication
             $app->get($uri, function () use ($app, $file)
             {
                 // merge local data with global data
-                $local = $app['yaml']->parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
+                $local = Yaml::parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
                 $content = $app['content'] = array_merge($app['content'], $local);
 
                 return $app->renderView($content['template'], $content);
