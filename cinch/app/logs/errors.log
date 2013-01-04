@@ -24118,6 +24118,7 @@ Stack trace:
 [2013-01-04 00:47:53] cinch.INFO: < 404 [] []
 [2013-01-04 00:48:01] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
 [2013-01-04 00:48:01] cinch.INFO: < 200 [] []
+<<<<<<< Updated upstream
 [2013-01-03 22:42:34] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
 [2013-01-03 22:42:34] cinch.INFO: < 200 [] []
 [2013-01-03 22:42:35] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /css/style.css" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 94 [] []
@@ -25733,3 +25734,7 @@ Stack trace:
 [2013-01-04 00:32:19] cinch.INFO: < 200 [] []
 [2013-01-04 00:38:55] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
 [2013-01-04 00:38:55] cinch.INFO: < 200 [] []
+=======
+[2013-01-04 14:35:04] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-04 14:35:04] cinch.INFO: < 200 [] []
+>>>>>>> Stashed changes
