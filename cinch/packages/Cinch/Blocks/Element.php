@@ -15,12 +15,12 @@
 
 namespace Cinch\Blocks;
 
-use Cinch\BlockInterface;
+use Cinch\Block;
 
 /*
  * The Cinch Element Block class.
  */
-class Element implements BlockInterface
+class Element extends Block
 {
     /**
      * Name of the tag. Ex "input"
@@ -50,12 +50,7 @@ class Element implements BlockInterface
      **/
     protected $_html = '';
 
-    public function hydrate()
-    {
-        return;
-    }
-
-    public function render()
+    public function display()
     {
         // opening angle bracket
         $html = '<';
@@ -92,5 +87,15 @@ class Element implements BlockInterface
         $html .= '</'.$this->_tagName.'>';
 
         return $html;
+    }
+
+    public function edit()
+    {
+        return '';
+    }
+
+    public function update()
+    {
+        return;
     }
 }

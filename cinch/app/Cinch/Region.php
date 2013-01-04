@@ -24,7 +24,6 @@ use Twig_Environment;
 class Region
 {
     protected $_blocks = array();
-    protected $_twig;
 
     public function __construct($name = '')
     {
@@ -38,43 +37,16 @@ class Region
 
     public function addBlock($block)
     {
-        // instantiate blocks and store them
-        $class = $block['class'];
-        $config = $block['options'];
-        $newBlock = new $class($config);
-
-        if (false === $newBlock instanceof BlockInterface) {
-            throw new \Exception('The ' . $class . ' class must implement BlockInterface');
-        }
-
-        $this->_blocks[] = $newBlock;
+        $this->_blocks[] = $block;
     }
 
-    public function getDispatcher(EventDispatcher $dispatcher)
-    {
-        $this->_eventDispatcher = $dispatcher;
-    }
-
-    public function setTwig(Twig_Environment $twig)
-    {
-        $this->_twig = $twig;
-    } 
-
-    public function hydrate()
-    {
-        foreach ($this->getBlocks() as $block)
-        {
-            $block->hydrate();
-        }
-    }
-
-    public function render()
+    public function display()
     {
         $output = '';
 
         foreach ($this->getBlocks() as $block)
         {
-            $output .= $block->render();
+            $output .= $block->display();
         }
 
         return $output;
@@ -82,6 +54,6 @@ class Region
 
     public function __toString()
     {
-        return $this->render();
+        return $this->display();
     }
 }

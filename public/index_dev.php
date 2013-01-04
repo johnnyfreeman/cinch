@@ -24,7 +24,7 @@ defined('DS') or define('DS', DIRECTORY_SEPARATOR);
 
 // Development environment setup
 require('php_error.php');
-\php_error\reportErrors();
+// \php_error\reportErrors();
 error_reporting(-1); 
 ini_set('display_errors', 1);
 define('CINCH_ENV', 'DEV');

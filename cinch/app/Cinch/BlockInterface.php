@@ -20,6 +20,7 @@ namespace Cinch;
  */
 interface BlockInterface
 {
-	public function hydrate();
-	public function render();
+	public function display();
+	public function edit();
+	public function update();
 }

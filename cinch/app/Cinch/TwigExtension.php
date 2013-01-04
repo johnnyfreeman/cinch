@@ -64,14 +64,27 @@ class TwigExtension extends Twig_Extension
             throw new Exception('$blocks should be an array by now');
         }
 
-        foreach ($blocks as $config) {
-            $region->addBlock($config);
+        $globals = $twig->getGlobals();
+
+        foreach ($blocks as $block) {
+            // instantiate blocks and store them
+            $class    = $block['class'];
+            $options  = $block['options'];
+            $newBlock = new $class($options);
+
+            if (false === $newBlock instanceof BlockInterface) {
+                throw new \Exception('The ' . $class . ' class must implement BlockInterface');
+            }
+
+            $newBlock->setApp($globals['app']);
+            $newBlock->setParentRegion($region);
+            $region->addBlock($newBlock);
         }
 
-        return $region;
+        return $region->display();
     }
 
-    public function blockFunction(Twig_Environment $twig, $config)
+    public function blockFunction($config)
     {
         return '';
     }
