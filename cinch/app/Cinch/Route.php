@@ -15,12 +15,13 @@
 
 namespace Cinch;
 
+use Silex\Route as SilexRoute;
 use Silex\Route\SecurityTrait;
 
 /*
  * The Cinch Route class.
  */
-class Route extends \Silex\Route
+class Route extends SilexRoute
 {
 	/**
 	 * Security Trait
