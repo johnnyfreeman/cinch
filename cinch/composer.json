@@ -1,11 +1,12 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "silex/silex": "*",
+        "silex/silex": "1.0.*@dev",
         "doctrine/dbal": "*",
         "twig/twig": "*",
         "monolog/monolog": "*",
-        "symfony/yaml": "*"
+        "symfony/yaml": "*",
+        "symfony/security": "2.1.*"
     },
     "autoload": {
         "psr-0": {

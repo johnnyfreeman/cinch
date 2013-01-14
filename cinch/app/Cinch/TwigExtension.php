@@ -44,7 +44,7 @@ class TwigExtension extends Twig_Extension
     {
         $globals = $twig->getGlobals();
         $theme_url = $globals['app']['theme_url'];
-        return $theme_url . '/' . ltrim($path, '/');
+        return $theme_url.DS.ltrim($path, DS);
     }
 
     public function regionFunction(Twig_Environment $twig, $blocks)

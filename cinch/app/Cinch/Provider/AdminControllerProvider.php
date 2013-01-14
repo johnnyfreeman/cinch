@@ -26,27 +26,23 @@ use Cinch\NamedRoutes;
  */
 class AdminControllerProvider implements ControllerProviderInterface
 {
-    protected $app;
-
     public function connect(Application $app)
     {
-        $this->app = $app;
-
         // create a new controller based on the default route
-        $admin = $this->app['controllers_factory'];
+        $admin = $app['controllers_factory'];
 
         // lock it down
         // $admin->secure('ROLE_ADMIN'); // makes admin routes throw an AccessDeniedException
 
         // dashboard
-        $admin->get('/dashboard', array($this, 'dashboard'))->bind(NamedRoutes::ADMIN);
+        $admin->get('/dashboard', 'admin.controller:dashboard')->bind(NamedRoutes::ADMIN);
         // make default route redirect to the dashboard
         $admin->get('/', function() use ($app) {
             return $app->redirect($app->url(NamedRoutes::ADMIN), 301);
         });
 
         // list packages
-        $admin->get('/packages', array($this, 'list_packages'));
+        $admin->get('/packages', 'admin.controller:list_packages');
 
         // get ALL packages, mount each admin controller provider
         // foreach ($this->app['packages'] as $package) {
@@ -66,37 +62,5 @@ class AdminControllerProvider implements ControllerProviderInterface
         })->assert('page', '.*');
 
         return $admin;
-    }
-
-    public function dashboard()
-    {
-        return 'Welcome to your dashboard!';
-    }
-
-    public function list_packages()
-    {
-        return 'listing all packages...';
-    }
-
-    public function lookup_package()
-    {
-        // find package or $app->abort()
-        return 'looking for you\'re package...';
-    }
-
-    public function login(Request $request) {
-        return 'login page';
-        // return $app->render('login.html', array(
-        //     'error'         => $app['security.last_error']($request),
-        //     'last_username' => $app['session']->get('_security.last_username'),
-        // ));
-    }
-
-    public function process_login(Request $request) {
-        return 'login page';
-    }
-
-    public function process_logout(Request $request) {
-        return 'logging out... redirecting...';
     }
 }

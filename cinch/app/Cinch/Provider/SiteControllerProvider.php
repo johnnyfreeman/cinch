@@ -19,6 +19,7 @@ use Silex\Application;
 use Silex\ControllerProviderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
+// use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Cinch\NamedRoutes;
 use Symfony\Component\Yaml\Yaml;
 
@@ -40,26 +41,28 @@ class SiteControllerProvider implements ControllerProviderInterface
         {
             $app->get($uri, function () use ($app, $file)
             {
-                // merge local data with global data
-                $local = Yaml::parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
-                $content = $app['content'] = array_merge($app['content'], $local);
+                // get local content
+                $page_content = Yaml::parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
 
-                if ($content['published'] === false) {
+                // merge local data with global data
+                $app['content'] = array_merge($app['content'], $page_content);
+
+                // block access if this page isn't published
+                if ($app['content']['published'] === false) {
                     // TODO: allow admins to view draft pages
-                    throw new NotFoundHttpException;
+                    // throw new AccessDeniedException;
                 }
 
-                return $app->renderView($content['template'], $content);
+                return $app->renderView($app['content']['template'], $app['content']);
             });
         // ->bind(NamedRoutes::HOME);
         }
 
         // register constant routes
-        $admin = new AdminControllerProvider();
-        $app->mount('/admin', $admin);
-        $app->get('/login', array($admin, 'login'))->bind(NamedRoutes::LOGIN);
-        $app->post('/login', array($admin, 'process_login'));
-        $app->match('/logout', array($admin, 'process_logout'))->bind(NamedRoutes::LOGOUT);
+        $app->mount('/admin', new AdminControllerProvider());
+        $app->get('/login', 'admin.controller:login')->bind(NamedRoutes::LOGIN);
+        $app->post('/login', 'admin.controller:process_login');
+        $app->match('/logout', 'admin.controller:process_logout')->bind(NamedRoutes::LOGOUT);
 
         return $app['controllers'];
     }
