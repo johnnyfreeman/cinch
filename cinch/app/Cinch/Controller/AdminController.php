@@ -43,7 +43,7 @@ class AdminController
         return 'looking for you\'re package...';
     }
 
-    public function login(Request $request) {
+    public function login() {
         return 'login page';
         // return $app->render('login.html', array(
         //     'error'         => $app['security.last_error']($request),

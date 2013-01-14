@@ -32,7 +32,7 @@ class AdminControllerProvider implements ControllerProviderInterface
         $admin = $app['controllers_factory'];
 
         // lock it down
-        // $admin->secure('ROLE_ADMIN'); // makes admin routes throw an AccessDeniedException
+        $admin->secure('ROLE_ADMIN'); // makes admin routes throw an AccessDeniedException
 
         // dashboard
         $admin->get('/dashboard', 'admin.controller:dashboard')->bind(NamedRoutes::ADMIN);

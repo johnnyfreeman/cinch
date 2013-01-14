@@ -66,7 +66,6 @@ $app['admin.controller'] = $app->share(function() use ($app) {
     return new AdminController($app['twig']);
 });
 
-
 // register controller providers
 $site = new SiteControllerProvider();
 $site->connect($app);
@@ -91,11 +90,11 @@ $app->register(new SecurityServiceProvider());
  */
 
 
-// // handler for AccessDeniedExceptions
-// $app->error(function (AccessDeniedException $e)
-// {
-// 	return $app->redirect($app->url(NamedRoutes::LOGIN));
-// });
+// handler for AccessDeniedExceptions
+$app->error(function (AccessDeniedException $e)
+{
+	return $app->redirect($app->url(NamedRoutes::LOGIN));
+});
 
 
 // 404 handler
