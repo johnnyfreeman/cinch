@@ -23,5 +23,6 @@ final class NamedRoutes
 	const ADMIN  = 'admin';
 	const HOME   = 'home';
 	const LOGIN  = 'login';
+	const LOGIN_CHECK  = 'login_check';
 	const LOGOUT = 'logout';
 }

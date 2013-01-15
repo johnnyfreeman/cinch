@@ -16,15 +16,15 @@
 namespace Cinch\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
-use Twig_Environment;
+use Silex\Application;
 
 class AdminController
 {
-    protected $twig;
+    protected $app;
     
-    public function __construct(Twig_Environment $twig)
+    public function __construct(Application $app)
     {
-        $this->twig = $twig;
+        $this->app = $app;
     }
 
     public function dashboard()
@@ -43,16 +43,18 @@ class AdminController
         return 'looking for you\'re package...';
     }
 
-    public function login() {
-        return 'login page';
-        // return $app->render('login.html', array(
-        //     'error'         => $app['security.last_error']($request),
-        //     'last_username' => $app['session']->get('_security.last_username'),
-        // ));
+    public function login(Request $request) {
+        return $this->app->renderView('login.html', array(
+            'error'         => $this->app['security.last_error']($request),
+            'last_username' => $this->app['session']->get('_security.last_username'),
+        ));
     }
 
     public function process_login(Request $request) {
-        return 'login page';
+        if ($this->app['security']->isGranted('ROLE_ADMIN')) {
+            // return $this->app->redirect('/admin');
+            return $this->app->redirect($this->app->path(NamedRoutes::ADMIN));
+        }
     }
 
     public function process_logout(Request $request) {

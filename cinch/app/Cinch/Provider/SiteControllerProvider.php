@@ -61,7 +61,7 @@ class SiteControllerProvider implements ControllerProviderInterface
         // register constant routes
         $app->mount('/admin', new AdminControllerProvider());
         $app->get('/login', 'admin.controller:login')->bind(NamedRoutes::LOGIN);
-        $app->post('/login', 'admin.controller:process_login');
+        $app->post('/admin/process_login', 'admin.controller:process_login')->bind(NamedRoutes::LOGIN_CHECK);
         $app->match('/logout', 'admin.controller:process_logout')->bind(NamedRoutes::LOGOUT);
 
         return $app['controllers'];

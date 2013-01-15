@@ -25,11 +25,12 @@ use Cinch\Provider\TwigServiceProvider;
 use Composer\Autoload\ClassLoader;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-// use Symfony\Component\Security\Core\Exception\AccessDeniedException;
+use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Yaml\Yaml;
 use Silex\Provider\UrlGeneratorServiceProvider;
 use Silex\Provider\ServiceControllerServiceProvider;
+use Silex\Provider\SessionServiceProvider;
 use Symfony\Component\HttpKernel\Debug\ErrorHandler;
 
 /*
@@ -63,7 +64,7 @@ $app['base_url'] = $request->getBasePath();
 
 // register admin controller as a service
 $app['admin.controller'] = $app->share(function() use ($app) {
-    return new AdminController($app['twig']);
+    return new AdminController($app);
 });
 
 // register controller providers
@@ -73,8 +74,8 @@ $site->connect($app);
 
 // current theme
 $theme_uri = DS.'themes'.DS.'site'.DS.$app['content']['theme'];
-$app['theme_url'] = $app['base_url'] . $theme_uri;
-$app['theme_path'] = PUBLIC_PATH . $theme_uri;
+$app['theme.url'] = $app['base_url'] . $theme_uri;
+$app['theme.path'] = PUBLIC_PATH . $theme_uri;
 
 
 // Register Third Party Services
@@ -83,6 +84,7 @@ $app->register(new UrlGeneratorServiceProvider());
 $app->register(new TwigServiceProvider());
 $app->register(new ServiceControllerServiceProvider());
 $app->register(new SecurityServiceProvider());
+$app->register(new SessionServiceProvider());
 
 
 /**
@@ -93,7 +95,7 @@ $app->register(new SecurityServiceProvider());
 // handler for AccessDeniedExceptions
 $app->error(function (AccessDeniedException $e)
 {
-	return $app->redirect($app->url(NamedRoutes::LOGIN));
+	return $app->redirect($app->path(NamedRoutes::LOGIN));
 });
 
 
@@ -102,7 +104,7 @@ $app->error(function (AccessDeniedException $e)
 // overwise rethrow exception
 $app->error(function(NotFoundHttpException $e) use ($app)
 {
-    if (is_readable($app['theme_path'] . '/404.html')) {
+    if (is_readable($app['theme.path'] . '/404.html')) {
         return $app->render('/404.html', $app['content']);
     } 
 

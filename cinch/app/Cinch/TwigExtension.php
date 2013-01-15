@@ -43,7 +43,7 @@ class TwigExtension extends Twig_Extension
     public function assetFunction(Twig_Environment $twig, $path)
     {
         $globals = $twig->getGlobals();
-        $theme_url = $globals['app']['theme_url'];
+        $theme_url = $globals['app']['theme.url'];
         return $theme_url.DS.ltrim($path, DS);
     }
 
