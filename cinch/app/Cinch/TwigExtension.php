@@ -49,22 +49,23 @@ class TwigExtension extends Twig_Extension
 
     public function regionFunction(Twig_Environment $twig, $blocks)
     {
-        $region = new Region();
+        $region  = new Region();
+        $globals = $twig->getGlobals();
+        $app     = $globals['app'];
+        $content = $app['content'];
 
         // if $blocks is a string, we need to look for 
         // the configurations in the content service
         if (is_string($blocks)) {
-            $block_name = $blocks;
-            $globals    = $twig->getGlobals();
-            $regions    = $globals['app']['content']['regions'];
-            $blocks     = array_key_exists($block_name, $regions) ? $regions[$block_name] : array();
+            $region_name = $blocks;
+            $blocks      = array_key_exists($region_name, $content['regions']) 
+                                ? $content['regions'][$region_name] 
+                                : array();
         }
 
         if (!is_array($blocks)) {
             throw new Exception('$blocks should be an array by now');
         }
-
-        $globals = $twig->getGlobals();
 
         foreach ($blocks as $block) {
             // instantiate blocks and store them

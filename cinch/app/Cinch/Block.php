@@ -59,8 +59,12 @@ abstract class Block implements BlockInterface
         $this->_options = $options;
     }
 
-    public function render($template, $options)
+    public function render($template, $options = null)
     {
+        if (is_null($options)) {
+            $options = $this->_options;
+        }
+        
         return $this->_app['twig']->render($template, $options);
     }
 

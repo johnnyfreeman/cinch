@@ -1,327 +1,12 @@
-[2013-01-14 22:08:32] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:32] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:33] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:08:34] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:08:34] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:13] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:14] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:47] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:47] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:09:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:09:48] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:24] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:24] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:25] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:25] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:26] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:26] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:39] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:39] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:10:40] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:10:40] cinch.INFO: < 302 [] []
-[2013-01-14 22:11:01] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 22:11:01] cinch.INFO: < 200 [] []
-[2013-01-14 22:11:32] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 22:11:32] cinch.INFO: < 200 [] []
-[2013-01-14 22:11:36] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\symfony\security\Symfony\Component\Security\Http\Firewall\AccessListener.php line 53 [] []
-[2013-01-14 22:11:36] cinch.INFO: < 302 [] []
-[2013-01-14 22:11:36] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 22:11:36] cinch.INFO: < 200 [] []
-[2013-01-14 19:22:58] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
-[2013-01-14 19:22:59] cinch.INFO: < 200 [] []
-[2013-01-14 19:39:57] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
-[2013-01-14 19:39:57] cinch.INFO: < 302 [] []
-[2013-01-14 19:39:57] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 19:39:57] cinch.INFO: < 200 [] []
-[2013-01-14 20:15:03] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:15:03] cinch.CRITICAL: ErrorException: Notice: Undefined variable: app in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 [] []
-[2013-01-14 20:15:18] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:15:18] cinch.CRITICAL: ErrorException: Notice: Undefined variable: app in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 [] []
-[2013-01-14 20:17:00] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:17:00] cinch.CRITICAL: ErrorException: Notice: Undefined variable: app in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 [] []
-[2013-01-14 20:17:01] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:17:01] cinch.CRITICAL: ErrorException: Notice: Undefined variable: app in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 [] []
-[2013-01-14 20:17:02] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:17:02] cinch.CRITICAL: ErrorException: Notice: Undefined variable: app in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 48 [] []
-[2013-01-14 20:19:56] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:19:56] cinch.CRITICAL: ErrorException: Catchable Fatal Error: Argument 1 passed to Cinch\Controller\AdminController::__construct() must be an instance of Silex\Application, instance of Twig_Environment given, called in /var/www/cinch/cinch/app/bootstrap.php on line 66 and defined in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25 [] []
-[2013-01-14 20:19:58] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:19:58] cinch.CRITICAL: ErrorException: Catchable Fatal Error: Argument 1 passed to Cinch\Controller\AdminController::__construct() must be an instance of Silex\Application, instance of Twig_Environment given, called in /var/www/cinch/cinch/app/bootstrap.php on line 66 and defined in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25 [] []
-[2013-01-14 20:20:26] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:20:26] cinch.CRITICAL: ErrorException: Catchable Fatal Error: Argument 1 passed to Cinch\Controller\AdminController::__construct() must be an instance of Silex\Application, instance of Twig_Environment given, called in /var/www/cinch/cinch/app/bootstrap.php on line 66 and defined in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25 [] []
-[2013-01-14 20:20:26] cinch.INFO: exception 'ErrorException' with message 'Catchable Fatal Error: Argument 1 passed to Cinch\Controller\AdminController::__construct() must be an instance of Silex\Application, instance of Twig_Environment given, called in /var/www/cinch/cinch/app/bootstrap.php on line 66 and defined in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php line 25' in /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php:25
+[2013-01-28 21:06:55] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 21:06:55] cinch.INFO: < 302 [] []
+[2013-01-28 21:06:55] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:06:56] cinch.CRITICAL: Twig_Error_Loader: Template "login.html" is not defined (). (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php line 113 [] []
+[2013-01-28 21:06:56] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "login.html" is not defined ().' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php:113
 Stack trace:
-#0 /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php(25): Symfony\Component\HttpKernel\Debug\ErrorHandler->handle(4096, 'Argument 1 pass...', '/var/www/cinch/...', 25, Array)
-#1 /var/www/cinch/cinch/app/bootstrap.php(66): Cinch\Controller\AdminController->__construct(Object(Twig_Environment))
-#2 /var/www/cinch/cinch/vendor/pimple/pimple/lib/Pimple.php(122): {closure}(Object(Cinch\Application))
-#3 /var/www/cinch/cinch/vendor/pimple/pimple/lib/Pimple.php(83): Pimple->{closure}(Object(Cinch\Application))
-#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/ServiceControllerResolver.php(59): Pimple->offsetGet('admin.controlle...')
-#5 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(117): Silex\ServiceControllerResolver->getController(Object(Symfony\Component\HttpFoundation\Request))
-#6 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#7 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#9 /var/www/cinch/cinch/app/bootstrap.php(121): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#11 {main} [] []
-[2013-01-14 20:20:26] cinch.INFO: < 500 [] []
-[2013-01-14 20:20:44] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:20:44] cinch.CRITICAL: InvalidArgumentException: Identifier "session" is not defined. (uncaught exception) at /var/www/cinch/cinch/vendor/pimple/pimple/lib/Pimple.php line 78 [] []
-[2013-01-14 20:20:44] cinch.INFO: exception 'InvalidArgumentException' with message 'Identifier "session" is not defined.' in /var/www/cinch/cinch/vendor/pimple/pimple/lib/Pimple.php:78
-Stack trace:
-#0 /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php(49): Pimple->offsetGet('session')
-#1 [internal function]: Cinch\Controller\AdminController->login(Object(Symfony\Component\HttpFoundation\Request))
-#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Array, Array)
-#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#6 /var/www/cinch/cinch/app/bootstrap.php(121): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#8 {main} [] []
-[2013-01-14 20:20:44] cinch.INFO: < 500 [] []
-[2013-01-14 20:21:02] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 20:21:02] cinch.INFO: < 200 [] []
-[2013-01-14 22:45:18] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 22:45:18] cinch.INFO: < 200 [] []
-[2013-01-14 22:55:40] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 22:55:40] cinch.CRITICAL: Twig_Error_Syntax: The function "path" does not exist in "login.html" at line 28 (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/ExpressionParser.php line 556 [] []
-[2013-01-14 22:55:40] cinch.INFO: exception 'Twig_Error_Syntax' with message 'The function "path" does not exist in "login.html" at line 28' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/ExpressionParser.php:556
-Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/ExpressionParser.php(335): Twig_ExpressionParser->getFunctionNodeClass('path', 28)
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/ExpressionParser.php(148): Twig_ExpressionParser->getFunctionNode('path', 28)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/ExpressionParser.php(85): Twig_ExpressionParser->parsePrimaryExpression()
-#3 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/ExpressionParser.php(42): Twig_ExpressionParser->getPrimary()
-#4 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Parser.php(146): Twig_ExpressionParser->parseExpression()
-#5 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Parser.php(100): Twig_Parser->subparse(NULL, false)
-#6 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(480): Twig_Parser->parse(Object(Twig_TokenStream))
-#7 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(530): Twig_Environment->parse(Object(Twig_TokenStream))
-#8 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(321): Twig_Environment->compileSource('<!doctype html>...', 'login.html')
-#9 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.html')
-#10 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('login.html', Array)
-#11 /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php(50): Cinch\Application->renderView('login.html', Array)
-#12 [internal function]: Cinch\Controller\AdminController->login(Object(Symfony\Component\HttpFoundation\Request))
-#13 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Array, Array)
-#14 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#15 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#16 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#17 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#18 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#19 {main} [] []
-[2013-01-14 22:55:40] cinch.INFO: < 500 [] []
-[2013-01-14 23:06:23] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:06:23] cinch.CRITICAL: Twig_Error_Runtime: An exception has been thrown during the rendering of a template ("Route "login_check" does not exist.") in "login.html" at line 28. (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php line 280 [] []
-[2013-01-14 23:06:23] cinch.INFO: exception 'Symfony\Component\Routing\Exception\RouteNotFoundException' with message 'Route "login_check" does not exist.' in /var/www/cinch/cinch/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:134
-Stack trace:
-#0 /var/www/cinch/cinch/vendor/symfony/twig-bridge/Symfony/Bridge/Twig/Extension/RoutingExtension.php(45): Symfony\Component\Routing\Generator\UrlGenerator->generate('login_check', Array, false)
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(321) : eval()'d code(57): Symfony\Bridge\Twig\Extension\RoutingExtension->getPath('login_check')
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php(265): __TwigTemplate_fedb5a605fe4a263c0e02b6b67ca97f5->doDisplay(Array, Array)
-#3 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php(239): Twig_Template->displayWithErrorHandling(Array, Array)
-#4 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php(250): Twig_Template->display(Array)
-#5 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Template->render(Array)
-#6 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('login.html', Array)
-#7 /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php(50): Cinch\Application->renderView('login.html', Array)
-#8 [internal function]: Cinch\Controller\AdminController->login(Object(Symfony\Component\HttpFoundation\Request))
-#9 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Array, Array)
-#10 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#11 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#12 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#13 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#14 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#15 {main}
-
-Next exception 'Twig_Error_Runtime' with message 'An exception has been thrown during the rendering of a template ("Route "login_check" does not exist.") in "login.html" at line 28.' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php:280
-Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php(239): Twig_Template->displayWithErrorHandling(Array, Array)
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Template.php(250): Twig_Template->display(Array)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Template->render(Array)
+#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Chain->getCacheKey('login.html')
+#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(313): Twig_Environment->getTemplateClass('login.html', NULL)
+#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('login.html')
 #3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('login.html', Array)
 #4 /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php(50): Cinch\Application->renderView('login.html', Array)
 #5 [internal function]: Cinch\Controller\AdminController->login(Object(Symfony\Component\HttpFoundation\Request))
@@ -329,192 +14,644 @@ Stack trace:
 #7 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
 #8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
 #9 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#10 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
 #11 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
 #12 {main} [] []
-[2013-01-14 23:06:23] cinch.INFO: < 500 [] []
-[2013-01-14 23:11:44] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:11:44] cinch.INFO: < 200 [] []
-[2013-01-14 23:11:54] cinch.INFO: > GET /cinch/public/index_dev.php/login? [] []
-[2013-01-14 23:11:54] cinch.INFO: < 200 [] []
-[2013-01-14 23:12:05] cinch.INFO: > GET /cinch/public/index_dev.php/login? [] []
-[2013-01-14 23:12:05] cinch.INFO: < 200 [] []
-[2013-01-14 23:26:00] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:26:00] cinch.INFO: < 200 [] []
-[2013-01-14 23:26:50] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:26:50] cinch.INFO: < 200 [] []
-[2013-01-14 23:27:32] cinch.INFO: > GET /cinch/public/index_dev.php/login?username=johnny&password=29483270 [] []
-[2013-01-14 23:27:32] cinch.INFO: < 200 [] []
-[2013-01-14 23:28:02] cinch.INFO: > GET /cinch/public/index_dev.php/login?username=johnny&password=foo [] []
-[2013-01-14 23:28:02] cinch.INFO: < 200 [] []
-[2013-01-14 23:28:09] cinch.INFO: > POST /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:28:09] cinch.INFO: < 200 [] []
-[2013-01-14 23:35:34] cinch.INFO: > POST /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:35:34] cinch.INFO: < 200 [] []
-[2013-01-14 23:53:12] cinch.INFO: > POST /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:53:33] cinch.INFO: > POST /cinch/public/index_dev.php/login [] []
-[2013-01-14 23:53:33] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
-[2013-01-14 23:53:33] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+[2013-01-28 21:06:56] cinch.INFO: < 500 [] []
+[2013-01-28 21:18:40] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:18:40] cinch.INFO: < 200 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /css/audioplayerv1.min.css" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /css/style.css" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /css/video-js.min.css" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/video.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/modernizr.custom.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /css/fancybox.min.css" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.easing-1.3.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.fancybox.pack.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/respond.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.smartStartSlider.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.jcarousel.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.isotope.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.cycle.all.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.touchSwipe.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/audioplayerv1.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:40] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/jquery.gmap.min.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:41] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /img/logo.png" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:18:41] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /js/custom.js" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 21:22:13] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:22:13] cinch.INFO: < 200 [] []
+[2013-01-28 21:22:59] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:22:59] cinch.INFO: < 200 [] []
+[2013-01-28 21:24:19] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:24:19] cinch.INFO: < 200 [] []
+[2013-01-28 21:24:42] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:24:42] cinch.INFO: < 200 [] []
+[2013-01-28 21:26:31] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:26:31] cinch.INFO: < 200 [] []
+[2013-01-28 21:27:03] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:27:03] cinch.INFO: < 200 [] []
+[2013-01-28 21:27:20] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:27:20] cinch.INFO: < 200 [] []
+[2013-01-28 21:28:20] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:28:20] cinch.INFO: < 200 [] []
+[2013-01-28 21:30:11] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:30:11] cinch.INFO: < 200 [] []
+[2013-01-28 21:31:33] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:31:33] cinch.INFO: < 200 [] []
+[2013-01-28 21:36:23] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:36:23] cinch.INFO: < 200 [] []
+[2013-01-28 21:37:34] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:37:34] cinch.INFO: < 200 [] []
+[2013-01-28 21:37:56] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:37:56] cinch.INFO: < 200 [] []
+[2013-01-28 21:38:29] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:38:29] cinch.INFO: < 200 [] []
+[2013-01-28 21:40:13] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:40:13] cinch.INFO: < 200 [] []
+[2013-01-28 21:40:32] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:40:32] cinch.INFO: < 200 [] []
+[2013-01-28 21:41:04] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:41:04] cinch.INFO: < 200 [] []
+[2013-01-28 21:41:37] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:41:37] cinch.INFO: < 200 [] []
+[2013-01-28 21:42:00] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:42:00] cinch.INFO: < 200 [] []
+[2013-01-28 21:42:57] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:42:57] cinch.INFO: < 200 [] []
+[2013-01-28 21:54:35] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 21:54:35] cinch.INFO: < 200 [] []
+[2013-01-28 22:00:26] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:00:27] cinch.INFO: < 200 [] []
+[2013-01-28 22:01:18] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /img/loader.gif" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 22:01:18] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "POST /php/contact-send.php" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 22:05:05] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:05:05] cinch.INFO: < 200 [] []
+[2013-01-28 22:05:25] cinch.INFO: < 302 [] []
+[2013-01-28 22:05:25] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:05:25] cinch.INFO: < 200 [] []
+[2013-01-28 22:07:13] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:07:13] cinch.INFO: < 200 [] []
+[2013-01-28 22:07:38] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-28 22:07:38] cinch.INFO: < 200 [] []
+[2013-01-28 22:07:48] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 22:07:48] cinch.INFO: < 302 [] []
+[2013-01-28 22:07:48] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:07:48] cinch.INFO: < 200 [] []
+[2013-01-28 22:09:14] cinch.INFO: < 302 [] []
+[2013-01-28 22:09:14] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:09:14] cinch.INFO: < 200 [] []
+[2013-01-28 22:10:02] cinch.INFO: < 302 [] []
+[2013-01-28 22:10:02] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:10:02] cinch.INFO: < 200 [] []
+[2013-01-28 22:12:07] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
+[2013-01-28 22:12:07] cinch.INFO: < 200 [] []
+[2013-01-28 22:12:11] cinch.INFO: < 302 [] []
+[2013-01-28 22:12:11] cinch.INFO: > GET /cinch/public/index_dev.php/admin [] []
+[2013-01-28 22:12:11] cinch.INFO: < 301 [] []
+[2013-01-28 22:12:11] cinch.INFO: > GET /cinch/public/index_dev.php/admin/ [] []
+[2013-01-28 22:12:11] cinch.INFO: < 301 [] []
+[2013-01-28 22:12:11] cinch.INFO: > GET /cinch/public/index_dev.php/admin/dashboard [] []
+[2013-01-28 22:12:11] cinch.INFO: < 200 [] []
+[2013-01-28 22:12:20] cinch.INFO: > GET /cinch/public/index_dev.php/logout [] []
+[2013-01-28 22:12:20] cinch.CRITICAL: LogicException: The controller must be a callable (Array(0 => Object(Cinch\Controller\AdminController), 1 => process_logout) given). (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/FilterControllerEvent.php line 68 [] []
+[2013-01-28 22:12:20] cinch.INFO: exception 'LogicException' with message 'The controller must be a callable (Array(0 => Object(Cinch\Controller\AdminController), 1 => process_logout) given).' in /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/FilterControllerEvent.php:68
 Stack trace:
-#0 /var/www/cinch/cinch/app/Cinch/Controller/AdminController.php(54): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
-#1 [internal function]: Cinch\Controller\AdminController->process_login(Object(Symfony\Component\HttpFoundation\Request))
-#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Array, Array)
+#0 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/FilterControllerEvent.php(42): Symfony\Component\HttpKernel\Event\FilterControllerEvent->setController(Array)
+#1 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(121): Symfony\Component\HttpKernel\Event\FilterControllerEvent->__construct(Object(Symfony\Component\HttpKernel\HttpKernel), Array, Object(Symfony\Component\HttpFoundation\Request), 1)
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#7 {main} [] []
+[2013-01-28 22:12:20] cinch.INFO: < 500 [] []
+[2013-01-28 22:21:46] cinch.INFO: < 302 [] []
+[2013-01-28 22:21:46] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
+[2013-01-28 22:21:46] cinch.INFO: < 200 [] []
+[2013-01-28 22:21:57] cinch.INFO: > GET /cinch/public/index_dev.php/logout [] []
+[2013-01-28 22:21:57] cinch.CRITICAL: LogicException: The controller must be a callable (Array(0 => Object(Cinch\Controller\AdminController), 1 => process_logout) given). (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/FilterControllerEvent.php line 68 [] []
+[2013-01-28 22:21:57] cinch.INFO: exception 'LogicException' with message 'The controller must be a callable (Array(0 => Object(Cinch\Controller\AdminController), 1 => process_logout) given).' in /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/FilterControllerEvent.php:68
+Stack trace:
+#0 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/FilterControllerEvent.php(42): Symfony\Component\HttpKernel\Event\FilterControllerEvent->setController(Array)
+#1 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(121): Symfony\Component\HttpKernel\Event\FilterControllerEvent->__construct(Object(Symfony\Component\HttpKernel\HttpKernel), Array, Object(Symfony\Component\HttpFoundation\Request), 1)
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#5 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#7 {main} [] []
+[2013-01-28 22:21:57] cinch.INFO: < 500 [] []
+[2013-01-28 22:22:00] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /logoutd" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 22:22:34] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /logout" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 22:24:21] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
+[2013-01-28 22:24:21] cinch.INFO: < 200 [] []
+[2013-01-28 22:33:39] cinch.INFO: > GET /cinch/public/ [] []
+[2013-01-28 22:33:39] cinch.INFO: < 200 [] []
+[2013-01-28 22:35:01] cinch.INFO: > GET /cinch/public/ [] []
+[2013-01-28 22:35:01] cinch.INFO: < 200 [] []
+[2013-01-28 22:35:09] cinch.INFO: > GET /cinch/public/ [] []
+[2013-01-28 22:35:09] cinch.INFO: < 200 [] []
+[2013-01-28 22:35:19] cinch.INFO: > GET /cinch/public/ [] []
+[2013-01-28 22:35:19] cinch.INFO: < 200 [] []
+[2013-01-28 22:53:10] cinch.INFO: > GET /cinch/public/index.php/about [] []
+[2013-01-28 22:53:10] cinch.INFO: < 200 [] []
+[2013-01-28 22:55:06] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 22:55:06] cinch.INFO: < 200 [] []
+[2013-01-28 22:55:44] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 22:55:44] cinch.INFO: < 200 [] []
+[2013-01-28 22:55:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 22:55:52] cinch.INFO: < 302 [] []
+[2013-01-28 22:55:52] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:55:52] cinch.INFO: < 200 [] []
+[2013-01-28 22:56:01] cinch.INFO: < 302 [] []
+[2013-01-28 22:56:01] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:56:01] cinch.INFO: < 200 [] []
+[2013-01-28 22:56:05] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:56:05] cinch.INFO: < 200 [] []
+[2013-01-28 22:56:10] cinch.INFO: < 302 [] []
+[2013-01-28 22:56:10] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:56:10] cinch.INFO: < 200 [] []
+[2013-01-28 22:56:15] cinch.INFO: < 302 [] []
+[2013-01-28 22:56:15] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:56:15] cinch.INFO: < 200 [] []
+[2013-01-28 22:56:19] cinch.INFO: < 302 [] []
+[2013-01-28 22:56:19] cinch.INFO: > GET /cinch/public/admin [] []
+[2013-01-28 22:56:19] cinch.INFO: < 301 [] []
+[2013-01-28 22:56:19] cinch.INFO: > GET /cinch/public/admin/ [] []
+[2013-01-28 22:56:19] cinch.INFO: < 301 [] []
+[2013-01-28 22:56:19] cinch.INFO: > GET /cinch/public/admin/dashboard [] []
+[2013-01-28 22:56:19] cinch.INFO: < 200 [] []
+[2013-01-28 22:56:25] cinch.INFO: < 302 [] []
+[2013-01-28 22:56:25] cinch.INFO: > GET /cinch/public/ [] []
+[2013-01-28 22:56:25] cinch.INFO: < 200 [] []
+[2013-01-28 22:57:01] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:57:01] cinch.INFO: < 200 [] []
+[2013-01-28 22:57:03] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:57:03] cinch.INFO: < 200 [] []
+[2013-01-28 22:57:08] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:57:08] cinch.INFO: < 200 [] []
+[2013-01-28 22:58:26] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 22:58:26] cinch.INFO: < 200 [] []
+[2013-01-28 23:01:30] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:01:30] cinch.INFO: < 200 [] []
+[2013-01-28 23:01:36] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:01:36] cinch.INFO: < 302 [] []
+[2013-01-28 23:01:36] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:01:36] cinch.INFO: < 200 [] []
+[2013-01-28 23:02:06] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:02:07] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:02:41] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /index_dev.phpabout" (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/EventListener/RouterListener.php line 92 [] []
+[2013-01-28 23:02:44] cinch.INFO: > GET /cinch/public/index_dev.php/about [] []
+[2013-01-28 23:02:44] cinch.CRITICAL: ErrorException: Notice: Undefined property: Cinch\Provider\SiteControllerProvider::$app in /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:02:44] cinch.INFO: exception 'ErrorException' with message 'Notice: Undefined property: Cinch\Provider\SiteControllerProvider::$app in /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52' in /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php:52
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\HttpKernel\Debug\ErrorHandler->handle(8, 'Undefined prope...', '/var/www/cinch/...', 52, Array)
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
 #3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
 #4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
 #5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#6 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
 #7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
 #8 {main} [] []
-[2013-01-14 23:53:33] cinch.INFO: < 500 [] []
-[2013-01-15 00:05:06] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:05:06] cinch.INFO: < 200 [] []
-[2013-01-15 00:05:13] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
-[2013-01-15 00:05:13] cinch.INFO: < 302 [] []
-[2013-01-15 00:05:13] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:05:13] cinch.INFO: < 200 [] []
-[2013-01-15 00:05:29] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
-[2013-01-15 00:05:29] cinch.INFO: < 302 [] []
-[2013-01-15 00:05:29] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:05:29] cinch.INFO: < 200 [] []
-[2013-01-15 00:05:32] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
-[2013-01-15 00:05:32] cinch.INFO: < 302 [] []
-[2013-01-15 00:05:32] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:05:32] cinch.INFO: < 200 [] []
-[2013-01-15 00:06:09] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:06:09] cinch.INFO: < 200 [] []
-[2013-01-15 00:06:12] cinch.INFO: < 302 [] []
-[2013-01-15 00:06:12] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:06:12] cinch.INFO: < 200 [] []
-[2013-01-15 00:06:20] cinch.INFO: < 302 [] []
-[2013-01-15 00:06:21] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:06:21] cinch.INFO: < 200 [] []
-[2013-01-15 00:06:26] cinch.INFO: < 302 [] []
-[2013-01-15 00:06:27] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:06:27] cinch.INFO: < 200 [] []
-[2013-01-15 00:06:35] cinch.INFO: < 302 [] []
-[2013-01-15 00:06:35] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:06:35] cinch.INFO: < 200 [] []
-[2013-01-15 00:08:15] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:08:15] cinch.INFO: < 200 [] []
-[2013-01-15 00:08:23] cinch.INFO: < 302 [] []
-[2013-01-15 00:08:23] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:08:23] cinch.INFO: < 200 [] []
-[2013-01-15 00:10:22] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:10:22] cinch.INFO: < 200 [] []
-[2013-01-15 00:10:28] cinch.INFO: < 302 [] []
-[2013-01-15 00:10:28] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
-[2013-01-15 00:10:28] cinch.CRITICAL: Twig_Error_Loader: Template "/index.html" is not defined (). (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php line 113 [] []
-[2013-01-15 00:10:28] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "/index.html" is not defined ().' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php:113
+[2013-01-28 23:02:44] cinch.INFO: < 500 [] []
+[2013-01-28 23:03:19] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:03:19] cinch.CRITICAL: ErrorException: Notice: Undefined property: Cinch\Provider\SiteControllerProvider::$app in /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:03:19] cinch.INFO: exception 'ErrorException' with message 'Notice: Undefined property: Cinch\Provider\SiteControllerProvider::$app in /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52' in /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php:52
 Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Chain->getCacheKey('/index.html')
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(313): Twig_Environment->getTemplateClass('/index.html', NULL)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('/index.html')
-#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('/index.html', Array)
-#4 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(56): Cinch\Application->renderView('/index.html', Array)
-#5 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
-#6 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
-#7 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#9 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#11 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#12 {main} [] []
-[2013-01-15 00:10:28] cinch.INFO: < 500 [] []
-[2013-01-15 00:11:42] cinch.INFO: > GET /cinch/public/index_dev.php/admin [] []
-[2013-01-15 00:11:42] cinch.INFO: < 301 [] []
-[2013-01-15 00:11:42] cinch.INFO: > GET /cinch/public/index_dev.php/admin/ [] []
-[2013-01-15 00:11:42] cinch.INFO: < 301 [] []
-[2013-01-15 00:11:42] cinch.INFO: > GET /cinch/public/index_dev.php/admin/dashboard [] []
-[2013-01-15 00:11:42] cinch.INFO: < 200 [] []
-[2013-01-15 00:11:51] cinch.INFO: < 302 [] []
-[2013-01-15 00:11:51] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
-[2013-01-15 00:11:51] cinch.CRITICAL: Twig_Error_Loader: Template "/index.html" is not defined (). (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php line 113 [] []
-[2013-01-15 00:11:51] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "/index.html" is not defined ().' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php:113
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\HttpKernel\Debug\ErrorHandler->handle(8, 'Undefined prope...', '/var/www/cinch/...', 52, Array)
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:03:19] cinch.INFO: < 500 [] []
+[2013-01-28 23:03:40] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:03:41] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:03:41] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
 Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Chain->getCacheKey('/index.html')
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(313): Twig_Environment->getTemplateClass('/index.html', NULL)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('/index.html')
-#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('/index.html', Array)
-#4 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(56): Cinch\Application->renderView('/index.html', Array)
-#5 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
-#6 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
-#7 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#9 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#11 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#12 {main} [] []
-[2013-01-15 00:11:51] cinch.INFO: < 500 [] []
-[2013-01-15 00:11:55] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
-[2013-01-15 00:11:55] cinch.INFO: < 302 [] []
-[2013-01-15 00:11:55] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:11:55] cinch.INFO: < 200 [] []
-[2013-01-15 00:11:59] cinch.INFO: < 302 [] []
-[2013-01-15 00:11:59] cinch.INFO: > GET /cinch/public/index_dev.php/admin [] []
-[2013-01-15 00:11:59] cinch.INFO: < 301 [] []
-[2013-01-15 00:11:59] cinch.INFO: > GET /cinch/public/index_dev.php/admin/ [] []
-[2013-01-15 00:11:59] cinch.INFO: < 301 [] []
-[2013-01-15 00:11:59] cinch.INFO: > GET /cinch/public/index_dev.php/admin/dashboard [] []
-[2013-01-15 00:11:59] cinch.INFO: < 200 [] []
-[2013-01-15 00:12:04] cinch.INFO: < 302 [] []
-[2013-01-15 00:12:04] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
-[2013-01-15 00:12:04] cinch.CRITICAL: Twig_Error_Loader: Template "/index.html" is not defined (). (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php line 113 [] []
-[2013-01-15 00:12:04] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "/index.html" is not defined ().' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php:113
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:03:41] cinch.INFO: < 500 [] []
+[2013-01-28 23:09:20] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:09:20] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:09:20] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
 Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Chain->getCacheKey('/index.html')
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(313): Twig_Environment->getTemplateClass('/index.html', NULL)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('/index.html')
-#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('/index.html', Array)
-#4 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(56): Cinch\Application->renderView('/index.html', Array)
-#5 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
-#6 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
-#7 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#9 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#11 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#12 {main} [] []
-[2013-01-15 00:12:04] cinch.INFO: < 500 [] []
-[2013-01-15 00:15:45] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
-[2013-01-15 00:15:45] cinch.CRITICAL: Twig_Error_Loader: Template "/index.html" is not defined (). (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php line 113 [] []
-[2013-01-15 00:15:45] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "/index.html" is not defined ().' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php:113
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:09:20] cinch.INFO: < 500 [] []
+[2013-01-28 23:09:21] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:09:21] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:09:21] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
 Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Chain->getCacheKey('/index.html')
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(313): Twig_Environment->getTemplateClass('/index.html', NULL)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('/index.html')
-#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('/index.html', Array)
-#4 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(56): Cinch\Application->renderView('/index.html', Array)
-#5 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
-#6 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
-#7 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#9 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/cinch/app/bootstrap.php(123): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#11 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#12 {main} [] []
-[2013-01-15 00:15:45] cinch.INFO: < 500 [] []
-[2013-01-15 00:15:50] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:15:50] cinch.INFO: < 200 [] []
-[2013-01-15 00:22:22] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:22:22] cinch.INFO: < 200 [] []
-[2013-01-15 00:22:28] cinch.INFO: < 302 [] []
-[2013-01-15 00:22:28] cinch.INFO: > GET /cinch/public/index_dev.php/ [] []
-[2013-01-15 00:22:28] cinch.CRITICAL: Twig_Error_Loader: Template "/index.html" is not defined (). (uncaught exception) at /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php line 113 [] []
-[2013-01-15 00:22:28] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "/index.html" is not defined ().' in /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Loader/Chain.php:113
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:09:21] cinch.INFO: < 500 [] []
+[2013-01-28 23:09:22] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:09:22] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:09:22] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
 Stack trace:
-#0 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(266): Twig_Loader_Chain->getCacheKey('/index.html')
-#1 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(313): Twig_Environment->getTemplateClass('/index.html', NULL)
-#2 /var/www/cinch/cinch/vendor/twig/twig/lib/Twig/Environment.php(289): Twig_Environment->loadTemplate('/index.html')
-#3 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application/TwigTrait.php(64): Twig_Environment->render('/index.html', Array)
-#4 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(56): Cinch\Application->renderView('/index.html', Array)
-#5 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
-#6 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
-#7 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
-#8 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
-#9 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
-#10 /var/www/cinch/cinch/app/bootstrap.php(124): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
-#11 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
-#12 {main} [] []
-[2013-01-15 00:22:28] cinch.INFO: < 500 [] []
-[2013-01-15 00:23:20] cinch.INFO: > GET /cinch/public/index_dev.php/login [] []
-[2013-01-15 00:23:20] cinch.INFO: < 200 [] []
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:09:22] cinch.INFO: < 500 [] []
+[2013-01-28 23:09:23] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:09:23] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:09:23] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:09:23] cinch.INFO: < 500 [] []
+[2013-01-28 23:09:41] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:09:41] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:09:41] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:09:41] cinch.INFO: < 500 [] []
+[2013-01-28 23:12:35] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:12:35] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:12:35] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:12:35] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:11] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:11] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:11] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:11] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:14] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:14] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:14] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:14] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:15] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:15] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:15] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:15] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:15] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:15] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:15] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:15] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:15] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:15] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:15] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:15] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:15] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:15] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:15] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:15] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:16] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:16] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:16] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:16] cinch.INFO: < 500 [] []
+[2013-01-28 23:13:16] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:13:16] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:13:16] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(52): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:13:16] cinch.INFO: < 500 [] []
+[2013-01-28 23:21:27] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:21:27] cinch.INFO: < 302 [] []
+[2013-01-28 23:21:27] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:21:27] cinch.INFO: < 200 [] []
+[2013-01-28 23:21:32] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:21:32] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AccessDeniedException: Access Denied (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 53 [] []
+[2013-01-28 23:21:32] cinch.INFO: < 302 [] []
+[2013-01-28 23:21:32] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:21:32] cinch.INFO: < 200 [] []
+[2013-01-28 23:22:38] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:22:38] cinch.INFO: < 200 [] []
+[2013-01-28 23:22:41] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:22:41] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:22:50] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:22:50] cinch.INFO: < 200 [] []
+[2013-01-28 23:22:53] cinch.INFO: < 302 [] []
+[2013-01-28 23:22:53] cinch.INFO: > GET /cinch/public/admin [] []
+[2013-01-28 23:22:53] cinch.INFO: < 301 [] []
+[2013-01-28 23:22:53] cinch.INFO: > GET /cinch/public/admin/ [] []
+[2013-01-28 23:22:53] cinch.INFO: < 301 [] []
+[2013-01-28 23:22:53] cinch.INFO: > GET /cinch/public/admin/dashboard [] []
+[2013-01-28 23:22:53] cinch.INFO: < 200 [] []
+[2013-01-28 23:22:57] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:22:57] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:22:59] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:22:59] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:00] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:00] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:00] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:00] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:01] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:01] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:01] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:01] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:01] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:01] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:01] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:01] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:02] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:02] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:39] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:39] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:23:44] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:23:44] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 54 [] []
+[2013-01-28 23:24:15] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:24:24] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:33:51] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:51] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:52] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:52] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:53] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:53] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:53] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:53] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:53] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:53] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:53] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:53] cinch.INFO: < 302 [] []
+[2013-01-28 23:33:53] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: A Token was not found in the SecurityContext. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Http/Firewall/AccessListener.php line 53 [] []
+[2013-01-28 23:33:53] cinch.INFO: < 302 [] []
+[2013-01-28 23:34:56] cinch.INFO: > GET /cinch/public/login [] []
+[2013-01-28 23:34:56] cinch.INFO: < 200 [] []
+[2013-01-28 23:40:30] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:40:30] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:40:30] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:40:30] cinch.INFO: < 500 [] []
+[2013-01-28 23:40:36] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:40:36] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:40:36] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:40:36] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:00] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:00] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:41:00] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:41:00] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:07] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:07] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:41:07] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:41:07] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:09] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:09] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:41:09] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:41:09] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:09] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:09] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:41:09] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:41:09] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:09] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:09] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:41:09] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:41:09] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:10] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:10] cinch.CRITICAL: Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException: The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL. (uncaught exception) at /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php line 61 [] []
+[2013-01-28 23:41:10] cinch.INFO: exception 'Symfony\Component\Security\Core\Exception\AuthenticationCredentialsNotFoundException' with message 'The security context contains no authentication token. One possible reason may be that there is no firewall configured for this URL.' in /var/www/cinch/cinch/vendor/symfony/security/Symfony/Component/Security/Core/SecurityContext.php:61
+Stack trace:
+#0 /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php(51): Symfony\Component\Security\Core\SecurityContext->isGranted('ROLE_ADMIN')
+#1 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#2 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#3 /var/www/cinch/cinch/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#4 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#5 /var/www/cinch/cinch/vendor/silex/silex/src/Silex/Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#6 /var/www/cinch/cinch/app/bootstrap.php(135): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#7 /var/www/cinch/public/index_dev.php(39): require_once('/var/www/cinch/...')
+#8 {main} [] []
+[2013-01-28 23:41:10] cinch.INFO: < 500 [] []
+[2013-01-28 23:41:23] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:41:23] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 53 [] []
+[2013-01-28 23:58:18] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:58:18] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:58:52] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:58:52] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:58:54] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:58:54] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:58:55] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:58:55] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:58:55] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:58:55] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-01-28 23:58:55] cinch.INFO: > GET /cinch/public/about [] []
+[2013-01-28 23:58:55] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []

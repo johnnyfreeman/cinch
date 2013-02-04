@@ -38,29 +38,15 @@ class TwigServiceProvider extends SilexTwigServiceProvider
 
         // register the main theme directory under the main namespace
         $app['twig.loader.filesystem']->addPath($app['theme.path']);
-        
-        /**
-         * THIS NEEDS TO BE REFACTORED!
-         */
-        // quick and dirty add template dir for Cinch Package
-        $paths = array();
-        if (is_dir($app['theme.path'].DS.'packages'.DS.'cinch')) {
-            $paths[] = $app['theme.path'].DS.'packages'.DS.'cinch';
-        }
-        $paths[] = CINCH_PACKAGES.DS.'Cinch';
-        $app['twig.loader.filesystem']->setPaths($paths, 'cinch');
 
         // template paths for each package
-        // $packages = Yaml::parse(file_get_contents(CINCH_APP.DS.'config'.DS.'packages.yml'));
-        // foreach ($app['packages'] as $package) {
-        //     $app['twig.loader.filesystem']->addPath(array(
-        //             // add a place for theme developers to override package templates
-        //             $app['theme.path'].DS.'packages'.DS.$package['name'], 
-        //             $package['template_dir']
-        //         ), 
-        //         // namespace for this package's templates
-        //         $package['name']
-        //     );
-        // }
+        foreach ($app['packages'] as $package) {
+            $paths = array();
+            if (is_dir($app['theme.path'].DS.'packages'.DS.$package)) {
+                $paths[] = $app['theme.path'].DS.'packages'.DS.$package;
+            }
+            $paths[] = CINCH_PACKAGES.DS.$package;
+            $app['twig.loader.filesystem']->setPaths($paths, $package);
+        }
     }
 }

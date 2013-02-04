@@ -1,5 +1,5 @@
 site_title: 'My Cool Site'
 page_title: ''
 published: false
-theme: default
+theme: smartstart
 template: 404.html

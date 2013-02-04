@@ -16,7 +16,8 @@
 use Cinch\Application;
 use Cinch\NamedRoutes;
 use Cinch\Controller\AdminController;
-use Cinch\Controller\SiteController;
+use Cinch\Events as CinchEvents;
+use Cinch\Event\FilterAppEvent;
 use Cinch\Provider\AdminControllerProvider;
 use Cinch\Provider\SiteControllerProvider;
 use Cinch\Provider\MonologServiceProvider;
@@ -47,20 +48,26 @@ $autoloader = require_once CINCH_ROOT.DS.'vendor'.DS.'autoload.php';
 // register errors as exceptions
 ErrorHandler::register();
 
-// register packages with the autoloader
-// $autoloader->add('Package_Namespace', CINCH_PACKAGES);
-
 // start application
 $app = new Application();
-
-$app['debug'] = CINCH_ENV !== 'PROD';
+$app['debug'] = CINCH_ENV === 'DEV';
 $app['route_class'] = 'Cinch\\Route';
-
 // update request context with globals and set base url
 $request = Request::createFromGlobals();
 $app['request_context']->fromRequest($request);
 $app['base_url'] = $request->getBasePath();
 
+// load enabled packages
+$app['packages'] = Yaml::parse(file_get_contents(CINCH_APP.DS.'config'.DS.ltrim('packages.yml', DS)));
+
+// register packages with the autoloader
+foreach ($app['packages'] as $package) {
+	$autoloader->add($package, CINCH_PACKAGES.DS.$package);
+	$package_bootstrap = $package.'\\'.$package;
+	class_exists($package_bootstrap) && new $package_bootstrap($app);
+}
+
+$app->trigger(CinchEvents::PACKAGES_LOADED, new FilterAppEvent($app));
 
 // register admin controller as a service
 $app['admin.controller'] = $app->share(function() use ($app) {
@@ -91,14 +98,6 @@ $app->register(new SessionServiceProvider());
  * ERROR HANDLING
  */
 
-
-// handler for AccessDeniedExceptions
-$app->error(function (AccessDeniedException $e)
-{
-	return $app->redirect($app->path(NamedRoutes::LOGIN));
-});
-
-
 // 404 handler
 // render template if 404.html is readable
 // overwise rethrow exception
@@ -118,6 +117,18 @@ $app->error(function(Exception $e) use ($app) {
     $app->log((string) $e);
 });
 
+
+
+$app->after(function($response) use ($app) {
+    $app->trigger(CinchEvents::PARSE_CONTENT, new FilterAppEvent($app));
+});
+
+$app->finish(function($response) use ($app) {
+    $app->trigger(CinchEvents::APP_STOP, new FilterAppEvent($app));
+});
+
+
+$app->trigger(CinchEvents::APP_START, new FilterAppEvent($app));
 
 // process Request, return Response
 $app->run($request);

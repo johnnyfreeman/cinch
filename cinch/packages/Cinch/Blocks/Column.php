@@ -24,12 +24,12 @@ class Column extends Block
 {
     public function display()
     {
-        return $this->render('@cinch/templates/column.html', $this->_options);
+        return $this->render('@Cinch/templates/column.html');
     }
 
     public function edit()
     {
-        return $this->render('@cinch/edit-column.html', $this->_options);
+        return $this->render('@Cinch/edit-column.html', $this->_options);
     }
 
     public function update()

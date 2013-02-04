@@ -50,14 +50,9 @@ class AdminController
         ));
     }
 
-    public function process_login(Request $request) {
+    public function process_login() {
         if ($this->app['security']->isGranted('ROLE_ADMIN')) {
-            // return $this->app->redirect('/admin');
             return $this->app->redirect($this->app->path(NamedRoutes::ADMIN));
         }
-    }
-
-    public function process_logout(Request $request) {
-        return 'logging out... redirecting...';
     }
 }

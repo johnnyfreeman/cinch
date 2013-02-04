@@ -47,7 +47,11 @@ class Region
         foreach ($this->getBlocks() as $block)
         {
             $output .= $block->display();
+
+            // $app->trigger(CinchEvents::BLOCK_RENDERED, new FilterAppEvent($block));
         }
+
+        // $app->trigger(CinchEvents::REGION_RENDERED, new FilterAppEvent($output));
 
         return $output;
     }

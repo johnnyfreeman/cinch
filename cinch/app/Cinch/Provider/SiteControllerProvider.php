@@ -19,7 +19,7 @@ use Silex\Application;
 use Silex\ControllerProviderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-// use Symfony\Component\Security\Core\Exception\AccessDeniedException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Cinch\NamedRoutes;
 use Symfony\Component\Yaml\Yaml;
 
@@ -39,7 +39,7 @@ class SiteControllerProvider implements ControllerProviderInterface
         // register routes
         foreach ($routes as $uri => $file)
         {
-            $app->get($uri, function () use ($app, $file)
+            $route = $app->get($uri, function () use ($app, $file)
             {
                 // get local content
                 $page_content = Yaml::parse(file_get_contents(CINCH_ROOT.DS.'content'.DS.ltrim($file, DS)));
@@ -49,20 +49,21 @@ class SiteControllerProvider implements ControllerProviderInterface
 
                 // block access if this page isn't published
                 if ($app['content']['published'] === false) {
-                    // TODO: allow admins to view draft pages
-                    // throw new AccessDeniedException;
+                    throw new NotFoundHttpException;
                 }
 
                 return $app->renderView($app['content']['template'], $app['content']);
             });
-        // ->bind(NamedRoutes::HOME);
+
+            if ($uri === '/') {
+                $route->bind(NamedRoutes::HOME);
+            }
         }
 
         // register constant routes
         $app->mount('/admin', new AdminControllerProvider());
         $app->get('/login', 'admin.controller:login')->bind(NamedRoutes::LOGIN);
         $app->post('/admin/process_login', 'admin.controller:process_login')->bind(NamedRoutes::LOGIN_CHECK);
-        $app->match('/logout', 'admin.controller:process_logout')->bind(NamedRoutes::LOGOUT);
 
         return $app['controllers'];
     }

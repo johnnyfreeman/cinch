@@ -15,11 +15,13 @@
 
 namespace Cinch;
 
+use Cinch\Events as CinchEvents;
 use Silex\Application as BaseApplication;
 use Silex\Application\TwigTrait;
 use Silex\Application\SecurityTrait;
 use Silex\Application\MonologTrait;
 use Silex\Application\UrlGeneratorTrait;
+use Symfony\Component\EventDispatcher\Event;
 
 /*
  * The Cinch Application class.
@@ -61,4 +63,29 @@ class Application extends BaseApplication
      * url($route, $parameters)
      */
     use UrlGeneratorTrait;
+
+    /**
+     * The trigger() method notifies all listeners of the given event.
+     *
+     * @param string  $eventName The name of the event to dispatch
+     * @param object  $event     The Event instance to pass to each listener of that event
+     * @return obect The Event instance
+     */
+    public function trigger($eventName, Event $event = null)
+    {
+        return $this['dispatcher']->dispatch($eventName, $event);
+    }
+
+    /**
+     * Boots all service providers and packages.
+     *
+     * This method is automatically called by handle(), but you can use it
+     * to boot all service providers when not handling a request.
+     */
+    public function boot()
+    {
+        parent::boot();
+
+        $this->trigger(CinchEvents::APP_BOOTED, new FilterAppEvent($this));
+    }
 }
