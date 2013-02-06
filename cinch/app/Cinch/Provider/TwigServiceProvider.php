@@ -40,12 +40,18 @@ class TwigServiceProvider extends SilexTwigServiceProvider
         $app['twig.loader.filesystem']->addPath($app['theme.path']);
 
         // template paths for each package
-        foreach ($app['packages'] as $package) {
+        foreach ($app['active_packages'] as $package) {
             $paths = array();
+
+            // set path for override templates if any exist
             if (is_dir($app['theme.path'].DS.'packages'.DS.$package)) {
                 $paths[] = $app['theme.path'].DS.'packages'.DS.$package;
             }
+
+            // set path for package templates
             $paths[] = CINCH_PACKAGES.DS.$package;
+
+            // register packages template paths
             $app['twig.loader.filesystem']->setPaths($paths, $package);
         }
     }

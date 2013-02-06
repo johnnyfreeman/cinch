@@ -9,6 +9,6 @@ use Cinch\Event\FilterAppEvent;
 class HelloWorld extends CinchPackage {
 	public function boot(FilterAppEvent $event)
 	{
-		echo "<pre>"; print_r($event); echo "</pre>"; die();
+		// echo "<pre>"; print_r('HelloWorld booting...'); echo "</pre>"; die();
 	}
 }

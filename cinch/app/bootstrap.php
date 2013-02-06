@@ -14,21 +14,16 @@
  */
 
 use Cinch\Application;
-use Cinch\NamedRoutes;
 use Cinch\Controller\AdminController;
-use Cinch\Events as CinchEvents;
 use Cinch\Event\FilterAppEvent;
-use Cinch\Provider\AdminControllerProvider;
+use Cinch\Events as CinchEvents;
+use Cinch\Provider\PackageServiceProvider;
 use Cinch\Provider\SiteControllerProvider;
 use Cinch\Provider\MonologServiceProvider;
 use Cinch\Provider\SecurityServiceProvider;
 use Cinch\Provider\TwigServiceProvider;
-use Composer\Autoload\ClassLoader;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
-use Symfony\Component\Yaml\Yaml;
 use Silex\Provider\UrlGeneratorServiceProvider;
 use Silex\Provider\ServiceControllerServiceProvider;
 use Silex\Provider\SessionServiceProvider;
@@ -50,34 +45,25 @@ ErrorHandler::register();
 
 // start application
 $app = new Application();
+
 $app['debug'] = CINCH_ENV === 'DEV';
 $app['route_class'] = 'Cinch\\Route';
+
 // update request context with globals and set base url
 $request = Request::createFromGlobals();
 $app['request_context']->fromRequest($request);
 $app['base_url'] = $request->getBasePath();
 
-// load enabled packages
-$app['packages'] = Yaml::parse(file_get_contents(CINCH_APP.DS.'config'.DS.ltrim('packages.yml', DS)));
-
-// register packages with the autoloader
-foreach ($app['packages'] as $package) {
-	$autoloader->add($package, CINCH_PACKAGES.DS.$package);
-	$package_bootstrap = $package.'\\'.$package;
-	class_exists($package_bootstrap) && new $package_bootstrap($app);
-}
-
-$app->trigger(CinchEvents::PACKAGES_LOADED, new FilterAppEvent($app));
 
 // register admin controller as a service
 $app['admin.controller'] = $app->share(function() use ($app) {
     return new AdminController($app);
 });
 
+
 // register controller providers
 $site = new SiteControllerProvider();
 $site->connect($app);
-
 
 // current theme
 $theme_uri = DS.'themes'.DS.'site'.DS.$app['content']['theme'];
@@ -86,6 +72,7 @@ $app['theme.path'] = PUBLIC_PATH . $theme_uri;
 
 
 // Register Third Party Services
+$app->register(new PackageServiceProvider($autoloader));
 $app->register(new MonologServiceProvider());
 $app->register(new UrlGeneratorServiceProvider());
 $app->register(new TwigServiceProvider());
@@ -120,15 +107,12 @@ $app->error(function(Exception $e) use ($app) {
 
 
 $app->after(function($response) use ($app) {
-    $app->trigger(CinchEvents::PARSE_CONTENT, new FilterAppEvent($app));
+    $app->trigger(CinchEvents::CONTENT_PARSED, new FilterAppEvent($app));
 });
 
 $app->finish(function($response) use ($app) {
     $app->trigger(CinchEvents::APP_STOP, new FilterAppEvent($app));
 });
-
-
-$app->trigger(CinchEvents::APP_START, new FilterAppEvent($app));
 
 // process Request, return Response
 $app->run($request);

@@ -655,3 +655,93 @@ Stack trace:
 [2013-01-28 23:58:55] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
 [2013-01-28 23:58:55] cinch.INFO: > GET /cinch/public/about [] []
 [2013-01-28 23:58:55] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at /var/www/cinch/cinch/app/Cinch/Provider/SiteControllerProvider.php line 52 [] []
+[2013-02-06 01:13:42] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:13:42] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php line 52 [] []
+[2013-02-06 01:14:12] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:14:12] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php line 52 [] []
+[2013-02-06 01:14:46] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:14:46] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php line 52 [] []
+[2013-02-06 01:14:46] cinch.INFO: < 404 [] []
+[2013-02-06 01:15:00] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:15:00] cinch.CRITICAL: Twig_Error_Loader: Template "@Cinch/templates/column.html" is not defined () in "/about-us.html" at line 114. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Loader\Chain.php line 113 [] []
+[2013-02-06 01:15:00] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "@Cinch/templates/column.html" is not defined () in "/about-us.html" at line 114.' in C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Loader\Chain.php:113
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(266): Twig_Loader_Chain->getCacheKey('@Cinch/template...')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(313): Twig_Environment->getTemplateClass('@Cinch/template...', NULL)
+#2 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('@Cinch/template...')
+#3 C:\xampp\htdocs\cinch\cinch\app\Cinch\Block.php(68): Twig_Environment->render('@Cinch/template...', Array)
+#4 C:\xampp\htdocs\cinch\cinch\packages\Cinch\Blocks\Column.php(27): Cinch\Block->render('@Cinch/template...')
+#5 C:\xampp\htdocs\cinch\cinch\app\Cinch\Region.php(49): Cinch\Blocks\Column->display()
+#6 C:\xampp\htdocs\cinch\cinch\app\Cinch\TwigExtension.php(85): Cinch\Region->display()
+#7 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(321) : eval()'d code(166): Cinch\TwigExtension->regionFunction(Object(Twig_Environment), 'main')
+#8 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Template.php(265): __TwigTemplate_3caf47857318dfc8f76152510a798d15->doDisplay(Array, Array)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Template.php(239): Twig_Template->displayWithErrorHandling(Array, Array)
+#10 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Template.php(250): Twig_Template->display(Array)
+#11 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Template->render(Array)
+#12 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application\TwigTrait.php(64): Twig_Environment->render('/about-us.html', Array)
+#13 C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php(55): Cinch\Application->renderView('/about-us.html', Array)
+#14 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#15 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#17 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#18 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#19 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(118): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#20 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#21 {main} [] []
+[2013-02-06 01:15:00] cinch.INFO: < 500 [] []
+[2013-02-06 01:19:21] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:19:21] cinch.CRITICAL: Twig_Error_Loader: Template "@Cinch/templates/column.html" is not defined () in "/about-us.html" at line 114. (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Loader\Chain.php line 113 [] []
+[2013-02-06 01:19:21] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "@Cinch/templates/column.html" is not defined () in "/about-us.html" at line 114.' in C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Loader\Chain.php:113
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(266): Twig_Loader_Chain->getCacheKey('@Cinch/template...')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(313): Twig_Environment->getTemplateClass('@Cinch/template...', NULL)
+#2 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('@Cinch/template...')
+#3 C:\xampp\htdocs\cinch\cinch\app\Cinch\Block.php(68): Twig_Environment->render('@Cinch/template...', Array)
+#4 C:\xampp\htdocs\cinch\cinch\packages\Cinch\Blocks\Column.php(27): Cinch\Block->render('@Cinch/template...')
+#5 C:\xampp\htdocs\cinch\cinch\app\Cinch\Region.php(49): Cinch\Blocks\Column->display()
+#6 C:\xampp\htdocs\cinch\cinch\app\Cinch\TwigExtension.php(85): Cinch\Region->display()
+#7 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(321) : eval()'d code(166): Cinch\TwigExtension->regionFunction(Object(Twig_Environment), 'main')
+#8 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Template.php(265): __TwigTemplate_3caf47857318dfc8f76152510a798d15->doDisplay(Array, Array)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Template.php(239): Twig_Template->displayWithErrorHandling(Array, Array)
+#10 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Template.php(250): Twig_Template->display(Array)
+#11 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Template->render(Array)
+#12 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application\TwigTrait.php(64): Twig_Environment->render('/about-us.html', Array)
+#13 C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php(55): Cinch\Application->renderView('/about-us.html', Array)
+#14 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#15 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#16 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#17 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#18 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#19 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(118): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#20 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#21 {main} [] []
+[2013-02-06 01:19:21] cinch.INFO: < 500 [] []
+[2013-02-06 01:20:10] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:20:10] cinch.INFO: < 200 [] []
+[2013-02-06 01:21:24] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:21:24] cinch.INFO: < 200 [] []
+[2013-02-06 01:21:34] cinch.INFO: > GET /cinch/public/ [] []
+[2013-02-06 01:21:34] cinch.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException:  (uncaught exception) at C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php line 52 [] []
+[2013-02-06 01:21:34] cinch.INFO: < 404 [] []
+[2013-02-06 01:22:00] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:22:00] cinch.CRITICAL: Twig_Error_Loader: Template "@cinch/templates/column.html" is not defined (). (uncaught exception) at C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Loader\Chain.php line 113 [] []
+[2013-02-06 01:22:00] cinch.INFO: exception 'Twig_Error_Loader' with message 'Template "@cinch/templates/column.html" is not defined ().' in C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Loader\Chain.php:113
+Stack trace:
+#0 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(266): Twig_Loader_Chain->getCacheKey('@cinch/template...')
+#1 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(313): Twig_Environment->getTemplateClass('@cinch/template...', NULL)
+#2 C:\xampp\htdocs\cinch\cinch\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('@cinch/template...')
+#3 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application\TwigTrait.php(64): Twig_Environment->render('@cinch/template...', Array)
+#4 C:\xampp\htdocs\cinch\cinch\app\Cinch\Provider\SiteControllerProvider.php(55): Cinch\Application->renderView('@cinch/template...', Array)
+#5 [internal function]: Cinch\Provider\SiteControllerProvider->Cinch\Provider\{closure}()
+#6 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(129): call_user_func_array(Object(Closure), Array)
+#7 C:\xampp\htdocs\cinch\cinch\vendor\symfony\http-kernel\Symfony\Component\HttpKernel\HttpKernel.php(73): Symfony\Component\HttpKernel\HttpKernel->handleRaw(Object(Symfony\Component\HttpFoundation\Request), 1)
+#8 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(479): Symfony\Component\HttpKernel\HttpKernel->handle(Object(Symfony\Component\HttpFoundation\Request), 1, true)
+#9 C:\xampp\htdocs\cinch\cinch\vendor\silex\silex\src\Silex\Application.php(456): Silex\Application->handle(Object(Symfony\Component\HttpFoundation\Request))
+#10 C:\xampp\htdocs\cinch\cinch\app\bootstrap.php(118): Silex\Application->run(Object(Symfony\Component\HttpFoundation\Request))
+#11 C:\xampp\htdocs\cinch\public\index_dev.php(39): require_once('C:\xampp\htdocs...')
+#12 {main} [] []
+[2013-02-06 01:22:00] cinch.INFO: < 500 [] []
+[2013-02-06 01:22:29] cinch.INFO: > GET /cinch/public/about [] []
+[2013-02-06 01:22:30] cinch.INFO: < 200 [] []
+[2013-02-06 01:22:33] cinch.INFO: > GET /cinch/public/ [] []
+[2013-02-06 01:22:33] cinch.INFO: < 200 [] []

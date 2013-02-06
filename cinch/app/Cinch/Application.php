@@ -16,6 +16,7 @@
 namespace Cinch;
 
 use Cinch\Events as CinchEvents;
+use Cinch\Event\FilterAppEvent;
 use Silex\Application as BaseApplication;
 use Silex\Application\TwigTrait;
 use Silex\Application\SecurityTrait;

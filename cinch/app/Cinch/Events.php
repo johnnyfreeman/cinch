@@ -30,9 +30,9 @@ final class Events
      * 
      * @var string
      */
-	const PACKAGES_LOADED = 'cinch.packages_loaded';
-     const APP_BOOTED = 'cinch.app_start';
-     const PARSE_CONTENT = 'cinch.parse_content';
+	const PACKAGES_REGISTERED = 'cinch.packages_registered';
+     const APP_BOOTED = 'cinch.app_booted';
+     const CONTENT_PARSED = 'cinch.content_parsed';
      const REGION_RENDERED = 'cinch.region_rendered';
-     const APP_SHUTDOWN = 'cinch.app_stop';
+     const APP_SHUTDOWN = 'cinch.app_shutdown';
 }

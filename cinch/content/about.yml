@@ -1,7 +1,6 @@
 page_title: 'About Us'
 template: /about-us.html
-# template: @cinch/templates/column.html
-# published: true
+published: true
 regions:
     header:
         -
